@@ -14,12 +14,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+      "package": "me.mbell.adaptive",
+      "adaptiveIcon": {
+        "backgroundImage": "./assets/icon-bg.png",
+        "foregroundImage": "./assets/icon-fg.png"
+      }
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }
